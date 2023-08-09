@@ -1,12 +1,13 @@
-@import url(style/header.css);
+@import url(style/header.css);/*temmmm???*/
+
 :root{
-    --cor-de-fundo:#EBECEE;
-    --branco: #ffffff;
-}
- 
-body{
-    background-color: var(--cor-de-fundo);
+ --cor-de-fundo: #EBECEE;
+  --branco: #ffffff;
 }
 
+
+body{
+ background-color: var(--cor-de-fundo);
+}
 
 

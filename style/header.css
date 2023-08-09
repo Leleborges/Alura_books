@@ -1,49 +1,50 @@
-.cabeçalho__menu-hamburguer{
-     width: 24px;
-     background-image: url(../img/Menu.svg);
+﻿.cabeçalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-     }
-    
-    .cabeçalho{
+}
+
+.cabeçalho{
     background-color: var (--branco);
     display: flex;
     justify-content: space-between;
-     align-items: center;
-    position: relative; /aula 2 - colocar/
-     }
-    
-    
-    /02/08/2023/
-    .container{
-     display: flex;
     align-items: center;
-    }
-    
-    .container__imagem{
+    position: relative; /*aula 2 - colocar*/
+}
+
+
+/*02/08/2023*/
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem{
     padding: 1em;
-    }
-    
-    .lista-menu{
-     display: none;
-     position: absolute;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
     top: 100%;
-    }
-    
-    .container__botao:checked~.lista-menu{
-     display: block;
-    }
+}
 
-    .opções {
+.container__botao:checked~.lista-menu{
+    display: block;
+}
 
-        display: none;
-        
-        }
-        
-        
-        .container__texto {
-        
-      display: none;
-        
-        }
+.opções {
+    display: none;
+}
+
+
+.container__texto {
+    display: none;
+}
+
+.container__botao{
+    display: none;
+}
