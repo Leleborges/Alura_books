@@ -2,6 +2,7 @@
 
 @import url(style/header.css);
 @import url(style/banner.css);
+@import url(style/carrossel.css);
 :root{
     --cor-de-fundo:#EBECEE;/*colocar todas as cores na aula 2*/
     --branco: #ffffff;
