@@ -1,5 +1,5 @@
 .carrossel__titulo {
-    color: var(--laranja);
+    color: black;
     background-color: var(--branco);
     text-align: center;
     text-transform: uppercase;
@@ -46,7 +46,7 @@
     }
 
     .botoes__ancora {
-        background-color: var(--laranja);
+        background-color: black;
         padding: 1em 2.2em;
         color: var(--branco);
         font-weight: 700;
@@ -62,7 +62,7 @@
     }
 
 .descricao__titulo {
-        color: orange;
+        color: rgb(0, 0, 0);
         font-weight: 700;
         font-size: 19px;
  }
@@ -78,6 +78,8 @@
        font-size: 14px;
         color: black;
 }
+
+
 
 @media screen and (min-width: 1024px) {
     .carrossel__titulo {
